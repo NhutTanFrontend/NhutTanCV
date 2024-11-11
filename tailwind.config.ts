@@ -11,12 +11,17 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'background-color': '#152B2E',
+        'background-btn': '#007E6A',
       },
       fontSize: {
         'xs': '12px'
       },
       screens: {
         'xe': '480px'
+      },
+      width: {
+        '90%': '90%'
       }
     },
   },
