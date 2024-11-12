@@ -12,6 +12,7 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         'background-color': '#152B2E',
+        'background-color-2': '#F6F6F6',
         'background-btn': '#007E6A',
       },
       fontSize: {
