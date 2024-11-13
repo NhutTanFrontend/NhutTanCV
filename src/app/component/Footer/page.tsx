@@ -30,7 +30,7 @@ function Footer() {
             </div>
         </div>
 
-        <p className="text-sm text-right p-1.5 roboto-bold">Develope by <span className="text-background-btn">tranlenhuttan</span></p>
+        <p className="text-sm text-right p-1.5 roboto-bold">Developed by <span className="text-background-btn">tranlenhuttan</span></p>
         </>
     );
 }
