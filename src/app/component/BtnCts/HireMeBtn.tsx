@@ -11,7 +11,7 @@ function HireMeBtn(props: HireMeBtnProp) {
     const {banner} = props
 
     return (
-        <Link href='/' className={`bg-background-btn hover:bg-transparent transition-all duration-300 border border-background-btn rounded-full text-lg py-3 px-8 flex justify-center items-center text-white ${banner ? 'hover:text-white' : 'hover:text-background-btn'}`}>Hire me</Link>
+        <Link href='/' className={`bg-background-btn hover:bg-transparent transition-all duration-300 border border-background-btn rounded-full text-lg py-3 px-8 flex justify-center items-center text-white ${banner ? 'hover:text-white block xs:w-max w-full' : 'hover:text-background-btn'}`}>Hire me</Link>
     );
 }
 

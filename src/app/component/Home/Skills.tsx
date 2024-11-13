@@ -52,11 +52,11 @@ function Skills() {
 
     return (
         <div className="container mx-auto">
-            <div className="w-90% mx-auto py-14 flex flex-col gap-2">
+            <div className="w-90% mx-auto py-12 flex flex-col gap-2">
                 <h2 className="text-center roboto-medium text-lg tracking-wider uppercase text-gray-600">My skills</h2>
                 <h3 className="text-center roboto-bold text-4xl tracking-wider capitalize">My Featured skills</h3>
-                <div className="flex gap-5 w-full flex-wrap items-center justify-center mt-5">
-                    {dataSkill?.map(item => (<Image key={item.id} src={item.image} alt={item.name} loading="lazy" width={1000} height={1000} className="w-32 h-full object-cover" />))}
+                <div className="flex gap-6 w-full flex-wrap items-center justify-center mt-8">
+                    {dataSkill?.map(item => (<Image key={item.id} src={item.image} alt={item.name} loading="lazy" width={1000} height={1000} className="w-28 sm:w-32 h-full object-cover" />))}
                 </div>
             </div>
         </div>

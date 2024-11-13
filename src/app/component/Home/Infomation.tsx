@@ -10,7 +10,7 @@ import HireMeBtn from "../BtnCts/HireMeBtn";
 function Infomation() {
     return (
         <div className="container mx-auto">
-            <div className="w-90% mx-auto py-20 flex gap-10 items-center">
+            <div className="w-90% mx-auto py-20 flex gap-10 items-center flex-col lg:flex-row">
                 <div className="basis-2/5 h-full">
                     <Image src='/cv_cutted.jpg' loading="lazy" alt="Trần Lê Nhứt Tân" className="w-full h-full object-cover rounded-md" width={750} height={750} />
                 </div>
@@ -18,7 +18,7 @@ function Infomation() {
                     <h3 className="uppercase text-lg text-gray-700 tracking-wider">My Biography</h3>
                     <h2 className="text-5xl roboto-bold opacity-85">Web Developer</h2>
                     <p className="text-lg tracking-wide text-gray-500">I&apos;m frontend developer, my major frameworks are ReactJS, NextJS, VueJS, ..., Contact me and we will discuss your projects!</p>
-                    <div className="grid grid-cols-2 mt-5">
+                    <div className="grid xs:grid-cols-2 mt-5 gap-3">
                         <div className="flex flex-col text-lg gap-2">
                             <p>
                                 <strong className="opacity-85">Name: </strong>

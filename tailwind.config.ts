@@ -20,7 +20,7 @@ const config: Config = {
         'xs': '12px'
       },
       screens: {
-        'xe': '480px'
+        'xs': '480px'
       },
       width: {
         '90%': '90%'
