@@ -13,6 +13,7 @@ const config: Config = {
         foreground: "var(--foreground)",
         'background-color': '#152B2E',
         'background-color-2': '#F6F6F6',
+        'background-footer': '#061F24',
         'background-btn': '#007E6A',
       },
       fontSize: {

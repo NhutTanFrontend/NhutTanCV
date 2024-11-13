@@ -1,6 +1,8 @@
+import Footer from "./component/Footer/page";
 import Header from "./component/Header/page";
 import Banner from "./component/Home/Banner";
 import Infomation from "./component/Home/Infomation";
+import MySuccessWork from "./component/Home/MySuccessWork";
 import ServiceProvide from "./component/Home/ServiceProvide";
 import Skills from "./component/Home/Skills";
 
@@ -12,6 +14,8 @@ export default function Home() {
       <Infomation />
       <Skills />
       <ServiceProvide />
+      <MySuccessWork />
+      <Footer />
     </div>
   );
 }
