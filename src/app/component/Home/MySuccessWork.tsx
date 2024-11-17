@@ -23,7 +23,7 @@ function MySuccessWork() {
 
     return (
         <div className="container mx-auto">
-            <div className="w-90% mx-auto py-20">
+            <div className="w-90% mx-auto py-14">
                 <h2 className="text-center text-4xl roboto-bold capitalize">My Success Work</h2>
                 <div className="grid sm:grid-cols-2 lg:grid-cols-3 mt-10 gap-5">
                     {dataWeb?.map(item => (<MysuccessWorkItem data={item} key={item.id} />))}

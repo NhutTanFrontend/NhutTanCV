@@ -1,3 +1,4 @@
+import Contact from "./component/Contact/page";
 import Footer from "./component/Footer/page";
 import Header from "./component/Header/page";
 import Banner from "./component/Home/Banner";
@@ -15,6 +16,7 @@ export default function Home() {
       <Skills />
       <ServiceProvide />
       <MySuccessWork />
+      <Contact />
       <Footer />
     </div>
   );
